@@ -1,1 +1,1 @@
-# RRBF NetworkFitting
+# RRBF-Network-Fitting
