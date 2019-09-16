@@ -1,7 +1,8 @@
-# RRBF Network Fitting
+# RBF Network Fitting
 
 RadialBasisFunction-Network-Fitting via genetic Algorithms
-\# |	MSE	|	Difference |	Gradient
+
+|# |	MSE	|	Difference |	Gradient
 ---|------|------------|----------
 1	| 0.01811 |	-0.00334106	| 0.00001545
 2	| 0.01785 |	-0.00330281	| 0.00001573
