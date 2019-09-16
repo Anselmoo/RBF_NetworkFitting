@@ -1,6 +1,7 @@
 # RBF Network Fitting
 
-RadialBasisFunction-Network-Fitting via genetic Algorithms
+**RBF Network Fitting** is a in Python developed fitting routine, which is using the [Radial-Basis-Function-Network for solving](https://en.wikipedia.org/wiki/Radial_basis_function_network) the 1D- and 2D-minimization problem. In order to optimize the Hyperparameter-Finding, a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) can be optionally used.
+
 
 |# |	MSE	|	Difference |	Gradient
 ---|------|------------|----------
@@ -16,4 +17,18 @@ RadialBasisFunction-Network-Fitting via genetic Algorithms
 
 
 
-https://en.wikipedia.org/wiki/Radial_basis_function_network
+**RBF Network Fitting** requires:
+  * [numpy](https://github.com/numpy/numpy)
+  * [matplotlib](https://github.com/matplotlib/matplotlib)
+  
+ 
+ Installing and Running:
+```python 
+python setup.py install
+# as command line application 
+python -m RBFN 
+# as library
+from RBFN import GeneticFitter
+from RBFN import RBFNetwork
+from RBFN import PlotResults
+```
