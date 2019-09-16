@@ -20,6 +20,11 @@ Example - I             |  Example - II
 * Fitting of experimental data
 ![crispy](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_experimentlike.png)
 
+* Following patterns of 3D-Functions
+
+Example - III             |  Example - IV
+:-------------------------:|:-------------------------:
+![3D-I](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/3D_example_I.png)|![3D-II](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/3D_example_II.png)
 
 **RBF Network Fitting** requires:
   * [numpy](https://github.com/numpy/numpy)
