@@ -1,4 +1,4 @@
-# RRBF-Network-Fitting
+# RadialBasisFunction-Network-Fitting via genetic Algorithms
 
 
 \# |	MSE	|	Difference |	Gradient
