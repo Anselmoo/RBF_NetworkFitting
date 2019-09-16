@@ -5,7 +5,7 @@ import numpy as np
 
 class RBFN(object):
 
-	def __init__(self, hidden_shape, sigma_g=1.0, sigma_l=1.0, alpha=0.5, mode='lorz'):
+	def __init__(self, hidden_shape, sigma_g=1.0, sigma_l=1.0, alpha=0.5, mode='gaus'):
 		"""
 		Radial Basis function network for Gaussian, Lorentz, Pseudo-Voight
 		https://en.wikipedia.org/wiki/Radial_basis_function_network
@@ -15,9 +15,9 @@ class RBFN(object):
 		hidden_shape: int
 			Number of functions in the hidden-layyer
 		sigma_g: float
-			Starting FHMW of the Gaussian
+			Starting Sigma of the Gaussian
 		sigma_l: float
-			Starting FHMW of the Lorentzian
+			Starting Sigma of the Lorentzian
 		alpha: float
 			Starting mixture of Gaussian and Lorentzian Contribution 
 		mode: str
@@ -209,9 +209,9 @@ class RBFN(object):
 		mse: float
 			Mean squared error
 		sigma_g: float as part of a list
-			FHMW of the Gaussian-Distribution
+			Sigma of the Gaussian-Distribution
 		sigma_l: float as part of a list
-			FHMW of the Lorentzian-Distribution
+			Sigma of the Lorentzian-Distribution
 		alpha: float as part of a list
 			Weighting factor between Gaussian- and Lorentzian-Distribution
 		status: bool
