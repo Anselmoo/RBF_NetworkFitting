@@ -1,19 +1,14 @@
 # RBF Network Fitting
 
-**RBF Network Fitting** is a in Python developed fitting routine, which is using the [Radial-Basis-Function-Network for solving](https://en.wikipedia.org/wiki/Radial_basis_function_network) the 1D- and 2D-minimization problem. In order to optimize the Hyperparameter-Finding, a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) can be optionally used.
+**RBF Network Fitting** is a in Python developed fitting routine, which is using the [Radial-Basis-Function-Network for solving](https://en.wikipedia.org/wiki/Radial_basis_function_network) the 1D- and 2D-minimization problem. During the Self-Consistent-Field-*Optimization* of the RBF-Network, the `mean-squared-error` will be evaluated during each cycle, and a difference- and gradient-correction will be applied to the input-parameter of the Fitting-Model. As Fitting-Models can be choosen: 
+ * [Normal Distribution](https://en.wikipedia.org/wiki/Normal_distribution)
+ * [Cauchy/Lorentzian Distribution](https://en.wikipedia.org/wiki/Cauchy_distribution)
+ * [Pseudo-Voigt Profile](https://en.wikipedia.org/wiki/Voigt_profile#Pseudo-Voigt_Approximation)
+
+In order to optimize the Hyperparameter-Finding for the number of layers and the kind of choosen models, a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) can be optionally used.
 
 
-|# |	MSE	|	Difference |	Gradient
----|------|------------|----------
-1	| 0.01811 |	-0.00334106	| 0.00001545
-2	| 0.01785 |	-0.00330281	| 0.00001573
-3	| 0.01760 |	-0.00326501	| 0.00001601
-4	| 0.01736 |	-0.00322764	| 0.00001628
-5	| 0.01712 |	-0.00319073	| 0.00001655
-6	| 0.01688 |	-0.00315427	| 0.00001681
-7	| 0.01665 |	-0.00311826	| 0.00001707
-8	| 0.01643 |	-0.00308272	| 0.00001732
-9	| 0.01621 |	-0.00304765	| 0.00001756
+
 
 
 
