@@ -16,10 +16,10 @@ y_pred = gens.evolver()
 print(gens.__dict__)
 # plotting 1D interpolation
 plt.plot(x, y, 'b-', label='real')
-plt.plot(x, y_pred, 'r-', label='fit')
+plt.plot(x, y_pred, 'r--', label='fit')
 plt.xlabel("Energy Loss (eV)")
 plt.ylabel("Emission Intensity (a.u.)")
 plt.legend(loc='best')
 plt.title('Using a genetic-optimized RBFN for re-fitting Iron d6 multiplet-spectra')
-
+plt.savefig("example_5.png",dpi=300)
 plt.show()
