@@ -19,5 +19,5 @@ plt.plot(x, y, 'b-', label='real')
 plt.plot(x, y_pred, 'r-', label='fit')
 plt.legend(loc='best')
 plt.title('Interpolation using a genetic-optimized RBFN')
-
+plt.savefig("example_1.png",dpi=300)
 plt.show()
