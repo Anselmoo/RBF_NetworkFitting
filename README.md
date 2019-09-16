@@ -14,17 +14,17 @@ In order to optimize the *Hyperparameter-Finding* for the number of layers and t
 
 Example - I             |  Example - II
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example.png" width="324" height="324">|<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_osci.png" width="324" height="324">
+![osci_1](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_2.png)|![osci_2](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_6.png)
 
 
 * Fitting of experimental data
-<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_experimentlike.png" width="450" height="450">
+![d6_example](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_5.png)
 
 * Following patterns of 3D-Functions
 
 Example - III             |  Example - IV
 :-------------------------:|:-------------------------:
-![3D-I](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/3D_example_I.png)|![3D-II](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/3D_example_II.png)
+![3D-I](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_4.png)|![3D-II](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_7.png)
 
 **RBF Network Fitting** requires:
   * [numpy](https://github.com/numpy/numpy)
