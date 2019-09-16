@@ -1,3 +1,6 @@
+# List all dependencies of RBF_NetworkFitting
+# Requires pip >= 18.0
+
 try:
     from setuptools import setup
 except ImportError:
