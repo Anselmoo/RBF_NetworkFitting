@@ -57,6 +57,7 @@ Genetic Algorithms with Python
 Clinton Sheppard
 Clinton Sheppard, 2018
 ```
+[https://github.com/handcraftsman/GeneticAlgorithmsWithPython/blob/master/ch08/genetic.py](https://github.com/handcraftsman/GeneticAlgorithmsWithPython/blob/master/ch08/genetic.py)
 [https://en.wikipedia.org/wiki/Radial_basis_function_network](https://en.wikipedia.org/wiki/Radial_basis_function_network)    
     
 
