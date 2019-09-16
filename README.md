@@ -18,11 +18,14 @@ Example - I             |  Example - II
 
 
 * Fitting of experimental data
-![d6_example](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_5.png)
+
+Example - III             |  
+:-------------------------:|
+![d6_example](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_5.png)|
 
 * Following patterns of 3D-Functions
 
-Example - III             |  Example - IV
+Example - IV             |  Example - V
 :-------------------------:|:-------------------------:
 ![3D-I](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_4.png)|![3D-II](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/example_7.png)
 
