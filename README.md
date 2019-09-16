@@ -1,4 +1,5 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/anselmoo/rbf_networkfitting/badge)](https://www.codefactor.io/repository/github/anselmoo/rbf_networkfitting)
+[![codebeat badge](https://codebeat.co/badges/9ef976e1-f0f3-4d03-a9d0-23d71a44584b)](https://codebeat.co/projects/github-com-anselmoo-rbf_networkfitting-master)
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/Anselmoo/RBF_NetworkFitting&style=flat)](https://github.com/Anselmoo/RBF_NetworkFitting/commits/master)
 # RBF Network Fitting
 
