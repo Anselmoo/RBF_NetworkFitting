@@ -196,4 +196,3 @@ if __name__ == '__main__':
 	plt.title('Interpolation using a genetic-optimized RBFN')
 
 	plt.show()
-
