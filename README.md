@@ -1,7 +1,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/anselmoo/rbf_networkfitting/badge)](https://www.codefactor.io/repository/github/anselmoo/rbf_networkfitting)
 [![codebeat badge](https://codebeat.co/badges/9ef976e1-f0f3-4d03-a9d0-23d71a44584b)](https://codebeat.co/projects/github-com-anselmoo-rbf_networkfitting-master)
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/Anselmoo/RBF_NetworkFitting&style=flat)](https://github.com/Anselmoo/RBF_NetworkFitting/commits/master)
+[![DOI](https://zenodo.org/badge/208275828.svg)](https://zenodo.org/badge/latestdoi/208275828)
 [![GitHub](https://img.shields.io/github/license/Anselmoo/RBF_NetworkFitting)](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/LICENSE)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Anselmoo/RBF_NetworkFitting)](https://github.com/Anselmoo/RBF_NetworkFitting/releases)
 # RBF Network Fitting
 
 **RBF Network Fitting** is an in Python developed fitting routine, which is using the [Radial-Basis-Function-Network for solving](https://en.wikipedia.org/wiki/Radial_basis_function_network) the 1D- and 2D-minimization problem. During the *Self-Consistent-Field-Optimization* of the RBF-Network, the `mean-squared-error` will be evaluated for each cycle, and a *difference- and gradient-correction* will be applied to the input-parameter of the Fitting-Model. As Fitting-Models can be choosen: 
