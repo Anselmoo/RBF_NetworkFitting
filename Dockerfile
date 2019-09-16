@@ -9,7 +9,6 @@ COPY examples /app/examples
 
 WORKDIR /app
 RUN pip install -r requirements.txt
-RUN pip install flake8
 RUN pip install pytest
 RUN pip install pytest-cov
 # Install Python-Interface
