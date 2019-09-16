@@ -10,8 +10,7 @@ def generate_genetic(grid):
 	x = np.linspace(-5, 5, grid)
 	y = np.sin(x) + np.cos(x) ** 2 + np.random.uniform(-0.1, 0.1, grid)
 
-	gens = GeneticFitter.GeneticOpt(x, y, items=10, epochs=10, max_iter=10, conv_min=10e-4, hidden_ranges=[5, 45],
-	                                method=['gaus'])
+	gens = GeneticFitter.GeneticOpt(x, y, items=10, epochs=10, max_iter=10, conv_min=10e-4, hidden_ranges=[5, 45], method=['gaus'])
 	y_pred = gens.evolver()
 
 def generate_genetic_extended(grid):
@@ -19,8 +18,7 @@ def generate_genetic_extended(grid):
 	x = np.linspace(-1, 1, grid)
 	y = np.sin(x) + np.cos(x) ** 2 + np.random.uniform(-0.1, 0.1, grid)
 
-	gens = GeneticFitter.GeneticOpt(x, y, items=10, epochs=10, max_iter=10, conv_min=10e-3, hidden_ranges=[5, 45],
-	                                method=['gaus','lorz','psed'])
+	gens = GeneticFitter.GeneticOpt(x, y, items=10, epochs=10, max_iter=10, conv_min=10e-3, hidden_ranges=[5, 45], method=['gaus','lorz','psed'])
 	y_pred = gens.evolver()
 
 
