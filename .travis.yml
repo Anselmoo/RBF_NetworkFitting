@@ -14,4 +14,4 @@ install:
 script:
   - flake8 RBFN
   - pytest --cov=RBFN test/test.py  # Run the tests and check for test coverage.
-  - python -m RBFN --help # Check if commandline will be opened.
+  - python -m RBFN --help  # Check if commandline will be opened.
