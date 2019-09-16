@@ -14,11 +14,11 @@ In order to optimize the *Hyperparameter-Finding* for the number of layers and t
 
 Example - I             |  Example - II
 :-------------------------:|:-------------------------:
-![Osci-1](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example.png)<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example.png" width="324" height="324">|![Osci-2](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_osci.png)<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_osci.png" width="324" height="324">
+<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example.png" width="324" height="324">|<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_osci.png" width="324" height="324">
 
 
 * Fitting of experimental data
-![crispy](https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_experimentlike.png)
+<img src="https://github.com/Anselmoo/RBF_NetworkFitting/blob/master/docu/1D_example_experimentlike.png" width="450" height="450">
 
 * Following patterns of 3D-Functions
 
