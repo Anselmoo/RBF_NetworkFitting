@@ -11,6 +11,6 @@ install:
   - pip3 install flake8
   - python setup.py install
 script:
-  - flake8 RBFN --ignore=E501,E101,F405,E117,E402,F403,F841,E127,F401 --count -q # Updated for the moment
+  - flake8 RBFN --ignore=E501,E101,F405,E117,E402,F403,F841,E127,F401 --count  # Updated for the moment
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
   - python -m RBFN --help  # Check if commandline will be opened.
