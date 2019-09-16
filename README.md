@@ -44,3 +44,19 @@ from RBFN import GeneticFitter
 from RBFN import RBFNetwork
 from RBFN import PlotResults
 ```
+
+## Further Readings:
+```
+Genetic Algorithms and Machine Learning for Programmers: Create AI Models and Evolve Solutions
+Frances Buontempo
+Pragmatic Bookshelf, 2019
+```
+
+```
+Genetic Algorithms with Python
+Clinton Sheppard
+Clinton Sheppard, 2018
+```
+[https://en.wikipedia.org/wiki/Radial_basis_function_network](https://en.wikipedia.org/wiki/Radial_basis_function_network)    
+    
+
