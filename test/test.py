@@ -14,6 +14,15 @@ def generate_genetic(grid):
 	                                method=['gaus'])
 	y_pred = gens.evolver()
 
+def generate_genetic_extended(grid):
+	# generating data
+	x = np.linspace(-1, 1, grid)
+	y = np.sin(x) + np.cos(x) ** 2 + np.random.uniform(-0.1, 0.1, grid)
+
+	gens = GeneticFitter.GeneticOpt(x, y, items=10, epochs=10, max_iter=10, conv_min=10e-3, hidden_ranges=[5, 45],
+	                                method=['gaus','lorz','psed'])
+	y_pred = gens.evolver()
+
 
 def generate_rbfn(grid, iter_):
 	# generate data
@@ -30,7 +39,7 @@ class GeneticTests(unittest.TestCase):
 		generate_genetic(grid=50)
 
 	def test_size_2(self):
-		generate_genetic(grid=150)
+		generate_genetic_extended(grid=25)
 
 	def test_size_3(self):
 		generate_rbfn(grid=50, iter_=150)
