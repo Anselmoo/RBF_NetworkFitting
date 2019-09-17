@@ -13,3 +13,6 @@ install:
 script:
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
   - python -m RBFN --help  # Check if commandline will be opened.
+after_success:
+  - lcov --capture --directory . --output-file coverage.info
+  - lcov --list coverage.info
