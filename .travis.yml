@@ -1,9 +1,13 @@
 language: python
+sudo: required
 python:
   - "3.5"
   - "3.6"
   - "3.7"
 cache: pip3
+befor_install:
+  - sudo apt-get update
+  - sudo apt-get install lcov
 install:
   - pip3 install -r requirements.txt
   - pip3 install pytest
