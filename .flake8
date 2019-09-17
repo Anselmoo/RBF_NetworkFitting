@@ -1,3 +1,26 @@
 [flake8]
-exclude = .git,__pycache__,build,dist,test/
+exclude = 
+    .git
+    __pycache__
+    build
+    dist
+    test
+    doc
+    example
+ignore =
+    # Normal default
+    E121,E123,E126,E226,E24,E704,W503,W504,
+    # Additional ignores:
+    E122, E125, E127, E128, E129, E131,
+    E265, E266,
+    E305, E306,
+    E722, E741,
+    F401, F403, F811, F841,
+    # Some new flake8 ignores:
+    N801, N802, N803, N806, N812,
+    # pydocstyle
+    D100, D101, D102, D103, D104, D105, D106, D107,
+    D200, D202, D203, D204, D205, D207, D209, D212, D213,
+    D300, D301
+    D400, D401, D402, D403, D413,
 max-line-length = 100
