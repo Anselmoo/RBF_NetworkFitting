@@ -12,7 +12,7 @@
  * [Cauchy/Lorentzian Distribution](https://en.wikipedia.org/wiki/Cauchy_distribution)
  * [Pseudo-Voigt Profile](https://en.wikipedia.org/wiki/Voigt_profile#Pseudo-Voigt_Approximation)
 
-In order to optimize the *Hyperparameter-Finding* for the number of layers and the kind of choosen models, a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) can be optionally used.
+In order to optimize the *Hyperparameter-Finding* for the number of layers and the kind of choosen models, a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) can be optionally used. The combination of both *Radial-Basis-Function-Network* and *Genetic Algorithm* allows using **RBF Network Fitting** as a real `black-box-method` in the absence of empirical parameters.
 
 
 ## Examples
