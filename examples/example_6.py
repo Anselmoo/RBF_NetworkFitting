@@ -7,7 +7,7 @@ from RBFN import *
 
 # generating data
 x = np.linspace(-25, 25, 500)
-y = np.sin(x)  * np.cos(x) ** 2  + np.random.uniform(-0.1, 0.1, 500)
+y = np.sin(x) * np.cos(x) ** 2 + np.random.uniform(-0.1, 0.1, 500)
 
 # fitting RBF-Network with data
 model = RBFNetwork.RBFN(hidden_shape=150)
@@ -21,5 +21,5 @@ plt.plot(x, y, 'b-', label='real')
 plt.plot(x, y_pred, 'r--', label='fit')
 plt.legend(loc='upper right')
 plt.title('Interpolation using a RBFN')
-plt.savefig("example_6.png",dpi=300)
+plt.savefig("example_6.png", dpi=300)
 plt.show()

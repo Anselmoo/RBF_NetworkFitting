@@ -7,18 +7,18 @@ def scf_run(frames):
 	fig, ax = plt.subplots()
 	xdata, ydata = [], []
 	ln, = plt.plot([], [], 'ro')
-
+	
 	def init():
 		ax.set_xlim(0, 2)
 		ax.set_ylim(0, 0.3)
 		return ln,
-
+	
 	def update(frame):
 		xdata.append(frame)
 		ydata.append(frame)
 		ln.set_data(xdata, ydata)
 		return ln,
-
+	
 	ani = FuncAnimation(fig, update, frames=frames, init_func=init, blit=True)
 	plt.show()
 
