@@ -10,4 +10,5 @@ exclude =
 ignore =
     # Normal default
     F401, F403, F405, F841, W605
+    E101, E117, E127, W191, W291, W293, W605
 max-line-length = 100
