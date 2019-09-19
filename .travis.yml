@@ -12,5 +12,6 @@ install:
   - python setup.py install
 script:
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
+  - flake8 --ignore=F401, F403, F405, F841, W605 RBFN
   - coverage report -m    
   - python -m RBFN --help  # Check if commandline will be opened.
