@@ -14,5 +14,5 @@ install:
 script:
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
   - coverage report -m
-  - pycodestyle --statistics --show-source  --show-pep8 RBFN/*
+  - flake8 RBFN #- pycodestyle --statistics --show-source  --show-pep8 RBFN/*
   - python -m RBFN --help  # Check if commandline will be opened.
