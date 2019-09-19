@@ -1,20 +1,18 @@
 language: python
-sudo: required
 python:
   - "3.5"
   - "3.6"
   - "3.7"
 cache: pip3  
 install:
-  - sudo apt-get update
-  - sudo apt-get install lcov
   - pip3 install -r requirements.txt
   - pip3 install pytest
   - pip3 install pytest-cov
   - pip3 install flake8
+  - pip3 install pycodestyle
   - python setup.py install
 script:
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
-  - coverage report -m  # Sending the coverage report
-  - flake8 RBFN. # Checking the formation of the RBFN files
+  - coverage report -m
+  - flake8 RBFN #- pycodestyle --statistics --show-source  --show-pep8 RBFN/*
   - python -m RBFN --help  # Check if commandline will be opened.
