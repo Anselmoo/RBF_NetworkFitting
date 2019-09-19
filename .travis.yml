@@ -9,9 +9,10 @@ install:
   - pip3 install pytest
   - pip3 install pytest-cov
   - pip3 install flake8
+  - pip3 install pycodestyle
   - python setup.py install
 script:
   - pytest --cov=RBFN test/test_travis.py  # Run the tests and check for test coverage with Travis optimized example
-  - flake8 RBFN
+  - pycodestyle --statistics --show-source  --show-pep8 RBFN/*
   - coverage report -m    
   - python -m RBFN --help  # Check if commandline will be opened.
