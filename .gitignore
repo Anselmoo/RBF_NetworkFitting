@@ -4,3 +4,7 @@
 /dist/
 /build/
 /test_ci/
+/test_ci/lib/
+/test_ci/bin/
+/test_ci/include/
+/test_ci/.Python
