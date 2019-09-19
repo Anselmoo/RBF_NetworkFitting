@@ -9,5 +9,5 @@ exclude =
     example
 ignore =
     # Normal default
-    F01, F403, F405, F841, W605
+    F401, F403, F405, F841, W605
 max-line-length = 100
