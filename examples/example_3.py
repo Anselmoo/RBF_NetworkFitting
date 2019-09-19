@@ -10,7 +10,7 @@ from RBFN import *
 # generating data
 x, y = np.meshgrid(np.linspace(-10, 10, 50), np.linspace(-10, 10, 50))
 z = (np.cos(np.sqrt((x - 2.) ** 2 + (y - 1) ** 2)) - np.sin(
-	np.sqrt((x + 2.) ** 2 + (y + 4) ** 2))) / 2.
+    np.sqrt((x + 2.) ** 2 + (y + 4) ** 2))) / 2.
 
 # fitting RBF-Network with data
 features = np.asarray(list(zip(x.flatten(), y.flatten())))
