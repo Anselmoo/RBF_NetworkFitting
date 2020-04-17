@@ -249,7 +249,6 @@ class RBFN(object):
                 print("Converged!")
                 return y_pred, mse, [self.sigma_g, self.sigma_l,
                                      self.alpha], True
-                break
             else:
                 diff, grad = self._scf_correction(y, y_pred, damp=damp)
                 print("{}\t{:2.5f}\t{:2.8f}\t{:2.8f}".format(i + 1, mse, diff,
