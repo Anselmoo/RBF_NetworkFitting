@@ -125,8 +125,7 @@ class RBFN(object):
                 Ranadom ceneters with length and shape of X
         """
         random_args = np.random.choice(len(X), self.hidden_shape)
-        centers = X[random_args]
-        return centers
+        return X[random_args]
 
     def _select_ampl(self, y):
         """
@@ -143,8 +142,7 @@ class RBFN(object):
                 Ranadom amplitudes with length and shape of y
         """
         random_args = np.random.choice(len(y), self.hidden_shape)
-        ampls = y[random_args]
-        return ampls
+        return y[random_args]
 
     def fit(self, X, y):
         """
@@ -178,8 +176,7 @@ class RBFN(object):
                 training samples
         """
         G = self._calculate_interpolation_matrix(X)
-        predictions = np.dot(G, self.weights)
-        return predictions
+        return np.dot(G, self.weights)
 
     def _scf_correction(self, Y, y_pred, damp=[1., 1.]):
         """
